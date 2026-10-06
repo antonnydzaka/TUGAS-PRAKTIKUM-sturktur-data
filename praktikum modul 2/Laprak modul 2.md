@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - PENGENALAN BAHASA C++ (BAGIAN KEDUA) </h1>
-<p align="center">Antonny Dzaka Fadhillah - 10982500038</p>
+<p align="center">Antonny Dzaka Fadhillah - 109082500038</p>
 
 ## Guided 
 
