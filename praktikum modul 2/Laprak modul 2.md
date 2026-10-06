@@ -340,7 +340,7 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1] (https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213832.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213832.png
 
 ##### Output 2
 https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213852.png

@@ -1,23 +1,6 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
 <p align="center">Antonny Dzaka Fadhillah - 109082500038</p>
 
-## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
-
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
 ## Unguided 
 
 ### 1.Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut. 
@@ -41,10 +24,10 @@ main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%201/Screenshot%202026-09-29%20232932.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%201/Screenshot%202026-09-29%20232932.png
 
 ##### Output 2
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%201/Screenshot%202026-09-29%20233144.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%201/Screenshot%202026-09-29%20233144.png
 
 penjelasan unguided 1 
 ### variabel a dan b, lalu masukan inputan variable a dan b setelah itu output penjumlahan, pengurangan, perkalian, pembagian
@@ -99,10 +82,10 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%202/Screenshot%202026-09-30%20000603.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%202/Screenshot%202026-09-30%20000603.png
 
 ##### Output 2
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%202/Screenshot%202026-09-30%20000611.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%202/Screenshot%202026-09-30%20000611.png
 
 penjelasan unguided 2
 ## membuat fungsi bilangan untuk membaca angka inputan lalu di bagian fungsi main melakukan input angka lalu output dengan fungsi bilangan dengan parameter angka 
@@ -141,10 +124,10 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%203/Screenshot%202026-09-30%20004224.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%203/Screenshot%202026-09-30%20004224.png
 
 ##### Output 2
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/Unguided/Unguided%203/Screenshot%202026-09-30%20004241.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%201/Unguided/Unguided%203/Screenshot%202026-09-30%20004241.png
 
 penjelasan unguided 3
 ## masukan inputan angka lalu melakukan perulangan increment sebanyak angka, di dalam perulangan pertama ada 3 perulangan menghasilkan output segitiga kebalik dengan tinggi variable angka 
