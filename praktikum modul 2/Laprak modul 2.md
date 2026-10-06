@@ -296,10 +296,10 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211134.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211134.png
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211525.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211525.png
 
 penjelasan unguided 1 :
 Program menggunakan array 3 dimensi untuk menginputkan elemen dua matriks 3x3, lalu menghitung serta menampilkan hasil operasi penjumlahan, pengurangan, dan perkalian elemen-elemen matriks tersebut.
@@ -340,10 +340,10 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213832.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213832.png
 
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213852.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213852.png
 
 penjelasan unguided 2 :
 Program menukar nilai dari tiga variabel secara berputar menggunakan fungsi `tukarbyreference` dengan parameter reference (`&`) serta fungsi `tukarbypointer` dengan parameter pointer (`*`) dengan bantuan variabel penampung `temp`.
@@ -438,10 +438,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%203/Screenshot_Unguided3_1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-1-sturktur-data-/blob/main/praktikum%20modul%202/Unguided/Unguided%203/Screenshot_Unguided3_2.png)
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%203/Screenshot%202026-10-06%20221511.png
 
 penjelasan unguided 3 :
 Program mengolah data array 1 dimensi dengan fungsi `cariMaksimum()` untuk mencari nilai terbesar, fungsi `cariMinimum()` untuk mencari nilai terkecil, dan prosedur `hitungRataRata()` untuk menghitung rata-rata nilai, yang seluruhnya dijalankan melalui menu interaktif `switch-case`.
