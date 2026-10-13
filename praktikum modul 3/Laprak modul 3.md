@@ -100,9 +100,9 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/mahasiswa/Screenshot%202026-10-14%20033955.png
 
 ##### Output 1
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/mahasiswa/Screenshot%202026-10-14%20033955.png
 
 penjelasan unguided 1 :
 Program menggunakan `struct mahasiswa` dan array `dataMahasiswa` untuk menyimpan data nilai mahasiswa. Fungsi `nilaiAkhir()` dengan parameter pointer digunakan untuk menghitung nilai akhir berdasarkan bobot 30% UTS, 40% UAS, dan 30% tugas, lalu hasilnya ditampilkan ke layar.
@@ -161,6 +161,7 @@ int main()
 ### Output Unguided 2 :
 
 ##### Output 1
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/pelajaran/Screenshot%202026-10-14%20040537.png
 
 penjelasan unguided 2 :
 Program mengimplementasikan ADT mata pelajaran secara modular dengan membagi kode ke dalam tiga file: `pelajaran.h` untuk deklarasi struct dan fungsi, `pelajaran.cpp` untuk implementasi fungsi pembuatan serta penampilan data, dan `main.cpp` sebagai program utama pemanggil ADT.
