@@ -100,12 +100,9 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/mahasiswa/Screenshot%202026-10-14%20033955.png
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211134.png
-
-##### Output 2
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%201/Screenshot%202026-10-06%20211525.png
 
 penjelasan unguided 1 :
 Program menggunakan `struct mahasiswa` dan array `dataMahasiswa` untuk menyimpan data nilai mahasiswa. Fungsi `nilaiAkhir()` dengan parameter pointer digunakan untuk menghitung nilai akhir berdasarkan bobot 30% UTS, 40% UAS, dan 30% tugas, lalu hasilnya ditampilkan ke layar.
@@ -164,10 +161,6 @@ int main()
 ### Output Unguided 2 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213832.png
-
-##### Output 2
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%202/Screenshot%202026-10-06%20213852.png
 
 penjelasan unguided 2 :
 Program mengimplementasikan ADT mata pelajaran secara modular dengan membagi kode ke dalam tiga file: `pelajaran.h` untuk deklarasi struct dan fungsi, `pelajaran.cpp` untuk implementasi fungsi pembuatan serta penampilan data, dan `main.cpp` sebagai program utama pemanggil ADT.
@@ -241,7 +234,7 @@ int main ()
 ### Output Unguided 3 :
 
 ##### Output 1
-https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%202/Unguided/Unguided%203/Screenshot%202026-10-06%20221511.png
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%203/Unguided/array/Screenshot%202026-10-14%20034047.png
 
 penjelasan unguided 3 :
 Program menggunakan array 3 dimensi untuk merepresentasikan dua matriks 3x3. Prosedur `tampilkan()` digunakan untuk mencetak isi matriks, sedangkan prosedur `ubah()` dan `ubahmatriks()` menukarkan nilai elemen antarmatriks pada baris dan kolom yang ditentukan pengguna.
