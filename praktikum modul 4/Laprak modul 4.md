@@ -446,6 +446,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%204/Unguided/soal%201/Screenshot%202026-10-20%20220311.png
 
 ### Penjelasan
 Pada program Unguided 1, ADT singly linked list dibuat dengan setiap node menyimpan sebuah bilangan dan alamat node berikutnya. List diinisialisasi kosong, lalu lima node bernilai 2, 0, 8, 12, dan 9 dimasukkan menggunakan `insertFirst`. Karena setiap node selalu ditambahkan di bagian depan, urutan list menjadi `9 12 8 0 2` saat ditampilkan oleh `printInfo`.
@@ -659,6 +660,7 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
+https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%204/Unguided/soal%202/Screenshot%202026-10-20%20222429.png
 
 ### Penjelasan
 Pada program Unguided 2, lima node dimasukkan ke bagian depan sehingga urutan awalnya adalah `9 12 8 0 2`. Operasi `delFirst` menghapus nilai 9, `delLast` menghapus nilai 2, dan `delAfter` dengan node sebelumnya bernilai 12 menghapus node setelahnya, yaitu nilai 8. List yang tersisa berisi `12 0`, sehingga `nbList` menghasilkan 2. Selanjutnya, `deleteList` menghapus seluruh node; list menjadi kosong, `printInfo` menampilkan pesan bahwa list kosong, dan jumlah node menjadi 0.
