@@ -147,7 +147,7 @@ bool cekDuplikat(List L, string nopol) {
 
 Program memasukkan kendaraan D001 (hitam, 90) dan D003 (putih, 70). Saat nomor D001 dimasukkan lagi, program menampilkan pesan bahwa nomor polisi sudah terdaftar dan tidak menambahkan data duplikat. Kemudian D004 (kuning, 90) ditambahkan. `printInfo` menelusuri list dari `Last` melalui `prev`, sehingga urutan tampilan adalah D004, D003, lalu D001.
 
-![Output Unguided 1](Unguided/Unguided%201/Screenshot%202026-11-05%20005225.png)
+![Output Unguided 1](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%206/Unguided/Unguided%201/Screenshot%202026-11-05%20005225.png)
 
 Kode utama dan implementasi lengkap dapat dilihat pada [`Unguided/Unguided 1/main.cpp`](<Unguided/Unguided 1/main.cpp>) dan [`Unguided/Unguided 1/Doublylist.cpp`](<Unguided/Unguided 1/Doublylist.cpp>).
 
@@ -172,7 +172,7 @@ address findElm(List L, infotype x) {
 
 Dengan data kendaraan yang sama seperti latihan pertama, program meminta nomor polisi yang dicari. Pada contoh pengujian, nomor D004 ditemukan dan program menampilkan nomor polisi, warna kuning, dan tahun 90. Jika nomor tidak ada di dalam list, program menampilkan pesan bahwa kendaraan tidak ditemukan.
 
-![Output Unguided 2](Unguided/Unguided%202/Screenshot%202026-11-05%20005406.png)
+![Output Unguided 2](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%206/Unguided/Unguided%202/Screenshot%202026-11-05%20005406.png)
 
 Kode program tersedia pada [`Unguided/Unguided 2/Doublylist.h`](<Unguided/Unguided 2/Doublylist.h>), [`Unguided/Unguided 2/Doublylist.cpp`](<Unguided/Unguided 2/Doublylist.cpp>), dan [`Unguided/Unguided 2/main.cpp`](<Unguided/Unguided 2/main.cpp>).
 
@@ -197,7 +197,7 @@ dealokasi(pDel);
 
 Pada contoh pengujian, nomor polisi D003 dihapus dari list yang berisi D001, D003, dan D004. Program menampilkan pesan bahwa data berhasil dihapus, lalu mencetak list kembali. Karena pencetakan dimulai dari `Last`, hasil setelah penghapusan menampilkan D004 kemudian D001.
 
-![Output Unguided 3](Unguided/Unguided%203/Screenshot%202026-11-05%20005534.png)
+![Output Unguided 3](https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%206/Unguided/Unguided%203/Screenshot%202026-11-05%20005534.png)
 
 Kode program tersedia pada [`Unguided/Unguided 3/Doublylist.h`](<Unguided/Unguided 3/Doublylist.h>), [`Unguided/Unguided 3/Doublylist.cpp`](<Unguided/Unguided 3/Doublylist.cpp>), dan [`Unguided/Unguided 3/main.cpp`](<Unguided/Unguided 3/main.cpp>).
 
