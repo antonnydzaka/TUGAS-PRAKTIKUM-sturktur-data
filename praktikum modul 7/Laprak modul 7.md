@@ -59,7 +59,7 @@ balik stack
 
 Hasil menunjukkan bahwa elemen yang semula berada di top menjadi elemen terbawah setelah urutan stack dibalik.
 
-![Output Unguided 1](<Unguided/Unguided 1/Screenshot 2026-11-18 001800.png>)
+![Output Unguided 1](<https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%207/Unguided/Unguided%201/Screenshot%202026-11-18%20001800.png>)
 
 Kode program tersedia pada [`Unguided/Unguided 1/stack.h`](<Unguided/Unguided 1/stack.h>), [`Unguided/Unguided 1/stack.cpp`](<Unguided/Unguided 1/stack.cpp>), dan [`Unguided/Unguided 1/main.cpp`](<Unguided/Unguided 1/main.cpp>).
 
@@ -89,7 +89,7 @@ balik stack
 [TOP]2 3 3 4 8 9
 ```
 
-![Output Unguided 2](<Unguided/Unguided 2/Screenshot 2026-11-18 001639.png>)
+![Output Unguided 2](<https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%207/Unguided/Unguided%202/Screenshot%202026-11-18%20001639.png>)
 
 Kode program tersedia pada [`Unguided/Unguided 2/stack.h`](<Unguided/Unguided 2/stack.h>), [`Unguided/Unguided 2/stack.cpp`](<Unguided/Unguided 2/stack.cpp>), dan [`Unguided/Unguided 2/main.cpp`](<Unguided/Unguided 2/main.cpp>).
 
@@ -120,7 +120,7 @@ balik stack
 [TOP]4 7 2 9 6 0 1
 ```
 
-![Output Unguided 3](<Unguided/Unguided 3/Screenshot 2026-11-18 001441.png>)
+![Output Unguided 3](<https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%207/Unguided/Unguided%202/Screenshot%202026-11-18%20001639.png>)
 
 Kode program tersedia pada [`Unguided/Unguided 3/stack.h`](<Unguided/Unguided 3/stack.h>), [`Unguided/Unguided 3/stack.cpp`](<Unguided/Unguided 3/stack.cpp>), dan [`Unguided/Unguided 3/main.cpp`](<Unguided/Unguided 3/main.cpp>).
 
