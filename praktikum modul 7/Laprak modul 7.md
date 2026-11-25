@@ -7,7 +7,7 @@
 
 Program Guided mengimplementasikan stack menggunakan array berkapasitas 10 elemen. Setiap elemen menyimpan NIM dan nama mahasiswa, sedangkan variabel `top` menandai posisi teratas. Operasi yang dicontohkan adalah membuat stack, menambahkan data dengan `push`, mengambil data dengan `pop`, dan menampilkan stack.
 
-#### Struktur data pada `stack.h`
+#### `stack.h`
 
 ```cpp
 struct infotype {
@@ -21,11 +21,47 @@ struct stack {
 };
 ```
 
-Pada program ini, `creatstack` menginisialisasi `top` dengan 1. `push` menaikkan nilai `top` lalu menyimpan data, sedangkan `pop` mengambil elemen pada posisi `top - 1` dan menurunkan `top`. Karena stack mengikuti prinsip LIFO (*Last In, First Out*), data yang terakhir dimasukkan akan menjadi data pertama yang diambil.
+#### Implementasi operasi pada `stack.cpp`
 
-#### Alur program dan hasil
+```cpp
+void creatstack(stack &s) {
+    s.top = 1;
+}
 
-Program mencoba memasukkan tiga data, mengambil satu data, lalu melakukan beberapa operasi `pop`. Hasil eksekusi `Guided/main.exe` adalah:
+void push(stack &s, infotype x) {
+    if (s.top < 10) {
+        s.top += 1;
+        s.info[s.top - 1] = x;
+    } else {
+        cout << "stack penuh \n";
+    }
+}
+
+void pop(stack &s, infotype &x) {
+    if (isEmty(s)) {
+        cout << "stack kosong \n";
+    } else {
+        x = s.info[s.top - 1];
+        s.top -= 1;
+    }
+}
+
+void viewstack(stack s) {
+    if (isEmty(s)) {
+        cout << "stack kosonng \n";
+    }
+}
+```
+
+`creatstack` menginisialisasi `top` dengan 1. `push` menaikkan `top` lalu menyimpan data, sedangkan `pop` mengambil elemen pada posisi `top - 1` dan menurunkan `top`. Stack mengikuti prinsip LIFO (*Last In, First Out*), sehingga data terakhir masuk menjadi data pertama yang diambil.
+
+#### Alur pada `main.cpp`
+
+Program memasukkan tiga data, mengambil satu data, lalu mencoba melakukan `pop` sampai kosong.
+
+#### Penjelasan dan hasil
+
+Hasil eksekusi `Guided/main.exe` adalah:
 
 ```text
 Stack baru dibuat, top = 1
@@ -47,7 +83,25 @@ Ketiga latihan Unguided menggunakan stack array bertipe `int` dengan kapasitas 2
 
 ### 1. Membalik urutan elemen stack
 
-Latihan pertama melakukan serangkaian operasi push dan pop untuk membentuk isi stack, kemudian menampilkan stack sebelum dan sesudah pemanggilan `balikstack`.
+#### Struktur data dan operasi
+
+Latihan pertama menggunakan stack array bertipe `int` dengan kapasitas 20 elemen. Serangkaian operasi `push` dan `pop` membentuk isi stack, kemudian fungsi `balikstack` memindahkan elemen ke stack sementara dan memasukkannya kembali untuk membalik urutan.
+
+#### Implementasi `balikstack`
+
+```cpp
+void balikstack(stack &s) {
+    stack temp;
+    createstack(temp);
+    temp = s;
+    createstack(s);
+
+    while (temp.top > 1) {
+        int x = pop(temp);
+        push(s, x);
+    }
+}
+```
 
 #### Hasil dan penjelasan
 
@@ -65,7 +119,11 @@ Kode program tersedia pada [`Unguided/Unguided 1/stack.h`](<Unguided/Unguided 1/
 
 ### 2. Menyusun elemen stack secara ascending
 
-Latihan kedua menambahkan fungsi `pushAscending`. Fungsi ini menyisipkan nilai pada posisi yang sesuai agar elemen di dalam stack tersusun menaik dari dasar menuju top.
+#### Struktur data dan operasi
+
+Latihan kedua menggunakan stack array yang sama dan menambahkan fungsi `pushAscending`. Fungsi ini menyisipkan nilai pada posisi yang sesuai agar elemen di dalam stack tersusun menaik dari dasar menuju top.
+
+#### Implementasi `pushAscending`
 
 ```cpp
 void pushAscending(stack &s, infotype x) {
@@ -95,7 +153,11 @@ Kode program tersedia pada [`Unguided/Unguided 2/stack.h`](<Unguided/Unguided 2/
 
 ### 3. Membentuk stack dari input angka
 
-Latihan ketiga membaca karakter dari satu baris input. Fungsi `getInputStream` mengabaikan karakter selain digit, mengubah setiap digit menjadi bilangan bulat, lalu memasukkannya ke stack.
+#### Struktur data dan operasi
+
+Latihan ketiga menggunakan stack array yang sama dan membaca karakter dari satu baris input. Fungsi `getInputStream` mengabaikan karakter selain digit, mengubah setiap digit menjadi bilangan bulat, lalu memasukkannya ke stack.
+
+#### Implementasi `getInputStream`
 
 ```cpp
 void getInputStream(stack &s) {
@@ -120,7 +182,7 @@ balik stack
 [TOP]4 7 2 9 6 0 1
 ```
 
-![Output Unguided 3](<https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%207/Unguided/Unguided%202/Screenshot%202026-11-18%20001639.png>)
+![Output Unguided 3](<https://github.com/antonnydzaka/TUGAS-PRAKTIKUM-sturktur-data/blob/main/praktikum%20modul%207/Unguided/Unguided%203/Screenshot%202026-11-18%20001441.png>)
 
 Kode program tersedia pada [`Unguided/Unguided 3/stack.h`](<Unguided/Unguided 3/stack.h>), [`Unguided/Unguided 3/stack.cpp`](<Unguided/Unguided 3/stack.cpp>), dan [`Unguided/Unguided 3/main.cpp`](<Unguided/Unguided 3/main.cpp>).
 
